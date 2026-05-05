@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GETEM Catalog Pro - User Guide</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #1e2a3a; line-height: 1.5; margin: 0; padding: 20px; }
+        .container { max-width: 750px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        h1 { color: #2c3e50; font-size: 26px; border-left: 4px solid #3498db; padding-left: 15px; margin-top: 0; }
+        h2 { color: #2980b9; font-size: 20px; margin-top: 25px; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; }
+        p, li { font-size: 15px; }
+        .highlight { font-weight: 600; color: #d35400; }
+        kbd { background-color: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .note { background-color: #eef2f5; padding: 10px 15px; border-left: 3px solid #3498db; margin: 20px 0; font-size: 14px; }
+        footer { margin-top: 35px; padding-top: 15px; border-top: 1px solid #ddd; text-align: center; color: #5a6e7a; font-size: 13px; }
+        .contact { margin-top: 10px; }
+        .contact a { color: #2980b9; text-decoration: none; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>GETEM Catalog Pro</h1>
+    <p>A screen‑reader friendly desktop application to easily search and download audiobooks and described movies from the GETEM digital library.</p>
+
+    <h2>⚙️ Basic Usage</h2>
+    <ul>
+        <li><strong>First launch:</strong> choose your language and enter your GETEM credentials once via <strong>Account / Login</strong> menu.</li>
+        <li>Switch between <strong>Books / Movies / Favorites</strong> tabs.</li>
+        <li>Use the <strong>search box</strong> and <strong>genre filter</strong> to narrow results.</li>
+        <li>Select a work, then click <strong>Download ZIP</strong> or press <kbd>Ctrl+E</kbd> to start downloading.</li>
+        <li>Download progress is shown on the progress bar and announced by the screen reader in real time.</li>
+    </ul>
+
+    <h2>⌨️ Keyboard Shortcuts</h2>
+    <ul>
+        <li><kbd>↓</kbd>/<kbd>↑</kbd> – navigate the list</li>
+        <li><kbd>Enter</kbd> – open the work's GETEM page</li>
+        <li><kbd>Ctrl+E</kbd> – download selected work</li>
+        <li><kbd>Ctrl+D</kbd> – add/remove from favorites</li>
+        <li><kbd>Ctrl+K</kbd> – show description (summary) of the selected work</li>
+        <li><kbd>Ctrl+B</kbd> – switch to book catalog, <kbd>Ctrl+M</kbd> – movie catalog, <kbd>Ctrl+F</kbd> – favorites list</li>
+        <li><kbd>Esc</kbd> – stop ongoing download</li>
+        <li><kbd>F1</kbd> – open this help page</li>
+    </ul>
+
+    <h2>📊 Sorting</h2>
+    <p><strong>Right‑click → Sort by</strong> on the list gives you these options:</p>
+    <ul>
+        <li><span class="highlight">Default (Original order)</span> – the natural order from GETEM</li>
+        <li><span class="highlight">By title (A‑Z / Z‑A)</span></li>
+        <li><span class="highlight">By format (A‑Z / Z‑A)</span> – e.g. “human voice mp3”, “described”</li>
+        <li><span class="highlight">By view count (Low‑High / High‑Low)</span></li>
+    </ul>
+    <p>Your choice is applied immediately and announced to the screen reader.</p>
+
+    <h2>🔊 Sound Settings</h2>
+    <p><strong>Options → Disable sound</strong> turns off all notification sounds temporarily. You can re‑enable it from the same menu. Your preference is saved.</p>
+
+    <h2>🗂️ Data Management</h2>
+    <ul>
+        <li><strong>Options → Clear all data</strong> resets all catalog files, favorites, settings and browser session. The program restarts with sounds enabled and your language preference preserved.</li>
+    </ul>
+
+    <h2>⚠️ Important Notes</h2>
+    <ul>
+        <li><strong>Download limit:</strong> GETEM may ask for a waiting period between consecutive downloads. The program detects this and tells you how many seconds to wait. Try again after that time.</li>
+        <li><strong>Wrong login:</strong> If your username or password is incorrect, the program detects the error message on the page and reports it without starting the download. Check your credentials.</li>
+        <li><strong>Internet connection:</strong> Required for catalog updates.</li>
+    </ul>
+
+    <div class="note">
+        🔒 <strong>Privacy:</strong> All your data is stored locally on your computer.
+    </div>
+
+    <footer>
+        © 2026 GETEM Catalog Pro – Developer: Tural Memmedov<br>
+        <div class="contact">📧 Contact: <a href="mailto:turalvm@gmail.com">turalvm@gmail.com</a></div>
+    </footer>
+</div>
+</body>
+</html>
